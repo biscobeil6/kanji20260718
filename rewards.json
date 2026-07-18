@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "rewards": [
+    {"id":"reward01","file":"images/reward01.jpeg","title":"10問達成"},
+    {"id":"reward02","file":"images/reward02.jpeg","title":"よくできました"},
+    {"id":"reward03","file":"images/reward03.jpeg","title":"おつかれさま"}
+  ]
+}
