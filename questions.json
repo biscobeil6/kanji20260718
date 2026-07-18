@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026.07.18",
+  "title": "中学漢字・高校入試対策",
+  "questions": [
+    {"id":"kanji-000001","type":"standard","prompt":"計画を【じっこう】する。","answer":"実行","reading":"じっこう","meaning":"計画したことなどを、実際に行うこと。","answerLength":2,"enabled":true},
+    {"id":"kanji-000002","type":"homophone","prompt":"旅費を【せいさん】する。","answer":"精算","reading":"せいさん","meaning":"金額を計算し、過不足を処理すること。","answerLength":2,"enabled":true},
+    {"id":"kanji-000003","type":"idiom","prompt":"周囲を気にせず、思うままに振る舞うこと。【じゆうほんぽう】","answer":"自由奔放","reading":"じゆうほんぽう","meaning":"世間の決まりに縛られず、思うままに行動すること。","answerLength":4,"enabled":true},
+    {"id":"kanji-000004","type":"standard","prompt":"意見を【そんちょう】する。","answer":"尊重","reading":"そんちょう","meaning":"価値あるものとして大切に扱うこと。","answerLength":2,"enabled":true},
+    {"id":"kanji-000005","type":"standard","prompt":"会社を【うんえい】する。","answer":"運営","reading":"うんえい","meaning":"組織や事業を動かし、管理すること。","answerLength":2,"enabled":true},
+    {"id":"kanji-000006","type":"idiom","prompt":"その場の事情に応じて、適切に対応すること。【りんきおうへん】","answer":"臨機応変","reading":"りんきおうへん","meaning":"状況に応じて、適切に対応すること。","answerLength":4,"enabled":true},
+    {"id":"kanji-000007","type":"standard","prompt":"責任を【はたす】。","answer":"果たす","reading":"はたす","meaning":"役目や約束などを最後まで行うこと。","answerLength":3,"enabled":true},
+    {"id":"kanji-000008","type":"standard","prompt":"文化を次代へ【けいしょう】する。","answer":"継承","reading":"けいしょう","meaning":"受け継ぐこと。","answerLength":2,"enabled":true},
+    {"id":"kanji-000009","type":"homophone","prompt":"問題の原因を【ついきゅう】する。","answer":"追究","reading":"ついきゅう","meaning":"明らかになるまで深く調べること。","answerLength":2,"enabled":true},
+    {"id":"kanji-000010","type":"idiom","prompt":"古いものを学び、そこから新しい知識を得ること。【おんこちしん】","answer":"温故知新","reading":"おんこちしん","meaning":"昔のことを学び、新しい知識や道理を得ること。","answerLength":4,"enabled":true}
+  ]
+}
