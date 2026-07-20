@@ -1,0 +1,8 @@
+Version: 1.6
+Updated: 2026-07-20
+Changes:
+- Removed the previous reward01 image (two older men/chefs comic).
+- Kept the other two existing reward images and renumbered them.
+- Added eight new reward images supplied by the user.
+- Reward image total: 10.
+- Application logic remains the v1.5 / index v8 version.

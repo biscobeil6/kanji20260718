@@ -1,22 +1,16 @@
-# 漢字書き取りアプリ（静的ファイル版）
+# 中3漢字書き取りアプリ
 
-GitHub Pagesでそのまま公開できます。ビルド不要です。
+GitHub Pages向けの静的Webアプリです。
 
-## 構成
+## 公開
+このフォルダの中身をリポジトリ直下へ配置してください。
 
-- `index.html`：アプリ本体
-- `questions.json`：漢字問題
-- `rewards.json`：ごほうび画像一覧
-- `images/`：ごほうび画像
+## 主な機能
+- 周回出題（全問終了後、自動で次周へ）
+- ランダム出題
+- 直近が△・×の問題だけを表示する苦手一覧
+- Apple Pencil・指・マウス入力
+- 10問ごとのごほうび画像
+- 端末内への成績保存
 
-## GitHub Pages
-
-リポジトリ直下へ、このフォルダの中身を階層を保ったまま配置します。
-
-Settings → Pages → Deploy from a branch → `main` / `(root)`
-
-## 更新
-
-- 漢字の追加・修正：`questions.json`
-- ごほうび画像：`images/` と `rewards.json`
-- アプリ機能・見た目：`index.html`
+詳細は `KANJI_APP_HANDOFF.md` を参照してください。

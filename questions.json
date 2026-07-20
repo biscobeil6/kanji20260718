@@ -1,17 +1,4886 @@
 {
   "schemaVersion": 1,
-  "datasetVersion": "2026.07.18",
-  "title": "中学漢字・高校入試対策",
+  "datasetVersion": "2026-07-19-v3-240-corrected",
+  "title": "中学漢字・高校入試対策 240問",
   "questions": [
-    {"id":"kanji-000001","type":"standard","prompt":"計画を【じっこう】する。","answer":"実行","reading":"じっこう","meaning":"計画したことなどを、実際に行うこと。","answerLength":2,"enabled":true},
-    {"id":"kanji-000002","type":"homophone","prompt":"旅費を【せいさん】する。","answer":"精算","reading":"せいさん","meaning":"金額を計算し、過不足を処理すること。","answerLength":2,"enabled":true},
-    {"id":"kanji-000003","type":"idiom","prompt":"周囲を気にせず、思うままに振る舞うこと。【じゆうほんぽう】","answer":"自由奔放","reading":"じゆうほんぽう","meaning":"世間の決まりに縛られず、思うままに行動すること。","answerLength":4,"enabled":true},
-    {"id":"kanji-000004","type":"standard","prompt":"意見を【そんちょう】する。","answer":"尊重","reading":"そんちょう","meaning":"価値あるものとして大切に扱うこと。","answerLength":2,"enabled":true},
-    {"id":"kanji-000005","type":"standard","prompt":"会社を【うんえい】する。","answer":"運営","reading":"うんえい","meaning":"組織や事業を動かし、管理すること。","answerLength":2,"enabled":true},
-    {"id":"kanji-000006","type":"idiom","prompt":"その場の事情に応じて、適切に対応すること。【りんきおうへん】","answer":"臨機応変","reading":"りんきおうへん","meaning":"状況に応じて、適切に対応すること。","answerLength":4,"enabled":true},
-    {"id":"kanji-000007","type":"standard","prompt":"責任を【はたす】。","answer":"果たす","reading":"はたす","meaning":"役目や約束などを最後まで行うこと。","answerLength":3,"enabled":true},
-    {"id":"kanji-000008","type":"standard","prompt":"文化を次代へ【けいしょう】する。","answer":"継承","reading":"けいしょう","meaning":"受け継ぐこと。","answerLength":2,"enabled":true},
-    {"id":"kanji-000009","type":"homophone","prompt":"問題の原因を【ついきゅう】する。","answer":"追究","reading":"ついきゅう","meaning":"明らかになるまで深く調べること。","answerLength":2,"enabled":true},
-    {"id":"kanji-000010","type":"idiom","prompt":"古いものを学び、そこから新しい知識を得ること。【おんこちしん】","answer":"温故知新","reading":"おんこちしん","meaning":"昔のことを学び、新しい知識や道理を得ること。","answerLength":4,"enabled":true}
+    {
+      "id": "kanji-001",
+      "type": "standard",
+      "prompt": "意見をまとめて委員会に【ていしゅつ】する。",
+      "answer": "提出",
+      "reading": "ていしゅつ",
+      "meaning": "書類や作品などを差し出すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-002",
+      "type": "standard",
+      "prompt": "事故の原因を詳しく【ちょうさ】する。",
+      "answer": "調査",
+      "reading": "ちょうさ",
+      "meaning": "実態や原因を詳しく調べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-003",
+      "type": "standard",
+      "prompt": "地域の行事に積極的に【さんか】する。",
+      "answer": "参加",
+      "reading": "さんか",
+      "meaning": "仲間に加わり、行動をともにすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-004",
+      "type": "standard",
+      "prompt": "努力を重ねて目標を【たっせい】する。",
+      "answer": "達成",
+      "reading": "たっせい",
+      "meaning": "目標や目的を成し遂げること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-005",
+      "type": "standard",
+      "prompt": "自然環境を大切に【ほご】する。",
+      "answer": "保護",
+      "reading": "ほご",
+      "meaning": "危険や損害から守ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-006",
+      "type": "standard",
+      "prompt": "会議で新しい案を【ていあん】する。",
+      "answer": "提案",
+      "reading": "ていあん",
+      "meaning": "考えや案を示して検討を求めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-007",
+      "type": "standard",
+      "prompt": "相手の立場を【そんちょう】して話し合う。",
+      "answer": "尊重",
+      "reading": "そんちょう",
+      "meaning": "価値あるものとして大切に扱うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-008",
+      "type": "standard",
+      "prompt": "資料を読み、内容を正しく【りかい】する。",
+      "answer": "理解",
+      "reading": "りかい",
+      "meaning": "意味や内容を正しく分かること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-009",
+      "type": "standard",
+      "prompt": "困っている人を進んで【えんじょ】する。",
+      "answer": "援助",
+      "reading": "えんじょ",
+      "meaning": "困っている人を助けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-010",
+      "type": "standard",
+      "prompt": "結果をもとに計画を【しゅうせい】する。",
+      "answer": "修正",
+      "reading": "しゅうせい",
+      "meaning": "誤りや不十分な点を直すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-011",
+      "type": "standard",
+      "prompt": "日々の経験を将来に【いかす】。",
+      "answer": "生かす",
+      "reading": "いかす",
+      "meaning": "経験や能力を役立てること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-012",
+      "type": "standard",
+      "prompt": "意見の違いを【みとめる】ことが大切だ。",
+      "answer": "認める",
+      "reading": "みとめる",
+      "meaning": "正しい、または存在すると受け入れること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-013",
+      "type": "standard",
+      "prompt": "課題を解決する方法を【けんとう】する。",
+      "answer": "検討",
+      "reading": "けんとう",
+      "meaning": "よく調べ、考えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-014",
+      "type": "standard",
+      "prompt": "重要な点をノートに【きろく】する。",
+      "answer": "記録",
+      "reading": "きろく",
+      "meaning": "後に残すために書き留めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-015",
+      "type": "standard",
+      "prompt": "災害に備えて避難訓練を【じっし】する。",
+      "answer": "実施",
+      "reading": "じっし",
+      "meaning": "計画したことを実際に行うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-016",
+      "type": "standard",
+      "prompt": "話し合いで互いの意見を【こうかん】する。",
+      "answer": "交換",
+      "reading": "こうかん",
+      "meaning": "互いに取り替えたり伝え合ったりすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-017",
+      "type": "standard",
+      "prompt": "新しい制度の内容を市民に【せつめい】する。",
+      "answer": "説明",
+      "reading": "せつめい",
+      "meaning": "分かるように詳しく述べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-018",
+      "type": "standard",
+      "prompt": "長い文章を短く【ようやく】する。",
+      "answer": "要約",
+      "reading": "ようやく",
+      "meaning": "要点をまとめて短く表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-019",
+      "type": "standard",
+      "prompt": "実験の結果から理由を【すいそく】する。",
+      "answer": "推測",
+      "reading": "すいそく",
+      "meaning": "分かっていることから見当をつけること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-020",
+      "type": "standard",
+      "prompt": "文化の違いを互いに【りかい】し合う。",
+      "answer": "理解",
+      "reading": "りかい",
+      "meaning": "意味や考えを正しく分かること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-021",
+      "type": "standard",
+      "prompt": "環境問題への関心が【たかまる】。",
+      "answer": "高まる",
+      "reading": "たかまる",
+      "meaning": "程度や勢いが増すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-022",
+      "type": "standard",
+      "prompt": "委員長として会議を【しんこう】する。",
+      "answer": "進行",
+      "reading": "しんこう",
+      "meaning": "物事を順序に従って進めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-023",
+      "type": "standard",
+      "prompt": "新しい機械を工場に【どうにゅう】する。",
+      "answer": "導入",
+      "reading": "どうにゅう",
+      "meaning": "新しい方法や設備を取り入れること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-024",
+      "type": "standard",
+      "prompt": "将来の進路について家族と【そうだん】する。",
+      "answer": "相談",
+      "reading": "そうだん",
+      "meaning": "意見を聞いたり話し合ったりすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-025",
+      "type": "standard",
+      "prompt": "新聞の記事を資料として【いんよう】する。",
+      "answer": "引用",
+      "reading": "いんよう",
+      "meaning": "他人の文章などをそのまま用いること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-026",
+      "type": "standard",
+      "prompt": "地域の歴史を詳しく【しょうかい】する。",
+      "answer": "紹介",
+      "reading": "しょうかい",
+      "meaning": "人や物事を知らせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-027",
+      "type": "standard",
+      "prompt": "多くの人から意見を【ぼしゅう】する。",
+      "answer": "募集",
+      "reading": "ぼしゅう",
+      "meaning": "広く呼びかけて人や案を集めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-028",
+      "type": "standard",
+      "prompt": "交通事故を防ぐ対策を【きょうか】する。",
+      "answer": "強化",
+      "reading": "きょうか",
+      "meaning": "より強く、しっかりしたものにすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-029",
+      "type": "standard",
+      "prompt": "自分の考えを分かりやすく【ひょうげん】する。",
+      "answer": "表現",
+      "reading": "ひょうげん",
+      "meaning": "考えや感情を言葉や形で表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-030",
+      "type": "standard",
+      "prompt": "調査結果をグラフで【しめす】。",
+      "answer": "示す",
+      "reading": "しめす",
+      "meaning": "相手に分かるように表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-031",
+      "type": "standard",
+      "prompt": "友人の成功を心から【いわう】。",
+      "answer": "祝う",
+      "reading": "いわう",
+      "meaning": "喜ばしいことを喜び、言葉や行動で表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-032",
+      "type": "standard",
+      "prompt": "問題点を一つずつ【かいぜん】する。",
+      "answer": "改善",
+      "reading": "かいぜん",
+      "meaning": "悪いところをよくすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-033",
+      "type": "standard",
+      "prompt": "必要な情報をインターネットで【けんさく】する。",
+      "answer": "検索",
+      "reading": "けんさく",
+      "meaning": "目的の情報を探し出すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-034",
+      "type": "standard",
+      "prompt": "法律によって国民の権利が【ほしょう】される。",
+      "answer": "保障",
+      "reading": "ほしょう",
+      "meaning": "権利や生活などを守ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-035",
+      "type": "standard",
+      "prompt": "班ごとに役割を【ぶんたん】する。",
+      "answer": "分担",
+      "reading": "ぶんたん",
+      "meaning": "仕事などを分けて受け持つこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-036",
+      "type": "standard",
+      "prompt": "発表の内容を事前に【せいり】する。",
+      "answer": "整理",
+      "reading": "せいり",
+      "meaning": "乱れたものを整え、分かりやすくすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-037",
+      "type": "standard",
+      "prompt": "自分の意見を根拠とともに【のべる】。",
+      "answer": "述べる",
+      "reading": "のべる",
+      "meaning": "考えや意見を言葉で表すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-038",
+      "type": "standard",
+      "prompt": "社会の変化に柔軟に【たいおう】する。",
+      "answer": "対応",
+      "reading": "たいおう",
+      "meaning": "状況に合わせて行動すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-039",
+      "type": "standard",
+      "prompt": "新しい技術が急速に【ふきゅう】する。",
+      "answer": "普及",
+      "reading": "ふきゅう",
+      "meaning": "広く一般に行き渡ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-040",
+      "type": "standard",
+      "prompt": "大切な文化財を後世に【つたえる】。",
+      "answer": "伝える",
+      "reading": "つたえる",
+      "meaning": "知らせたり受け継がせたりすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-041",
+      "type": "standard",
+      "prompt": "実験に使う器具を正確に【そろえる】。",
+      "answer": "揃える",
+      "reading": "そろえる",
+      "meaning": "必要なものを同じ状態や種類に整えること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-042",
+      "type": "standard",
+      "prompt": "国際会議で平和の重要性を【うったえる】。",
+      "answer": "訴える",
+      "reading": "うったえる",
+      "meaning": "強く主張して理解や対応を求めること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-043",
+      "type": "standard",
+      "prompt": "学習の成果を発表会で【ひろう】する。",
+      "answer": "披露",
+      "reading": "ひろう",
+      "meaning": "人前で見せたり発表したりすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-044",
+      "type": "standard",
+      "prompt": "資料の内容を詳しく【ぶんせき】する。",
+      "answer": "分析",
+      "reading": "ぶんせき",
+      "meaning": "要素に分けて性質や関係を明らかにすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-045",
+      "type": "standard",
+      "prompt": "長年の経験から独自の方法を【あみだす】。",
+      "answer": "編み出す",
+      "reading": "あみだす",
+      "meaning": "工夫して新しい方法などを作り出すこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-046",
+      "type": "standard",
+      "prompt": "問題の本質を的確に【とらえる】。",
+      "answer": "捉える",
+      "reading": "とらえる",
+      "meaning": "意味や本質を正しくつかむこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-047",
+      "type": "standard",
+      "prompt": "自分の考えを文章に【きじゅつ】する。",
+      "answer": "記述",
+      "reading": "きじゅつ",
+      "meaning": "文章に書き表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-048",
+      "type": "standard",
+      "prompt": "失敗の原因を冷静に【ふりかえる】。",
+      "answer": "振り返る",
+      "reading": "ふりかえる",
+      "meaning": "過去の出来事を思い返すこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-049",
+      "type": "standard",
+      "prompt": "目標に向かって努力を【つづける】。",
+      "answer": "続ける",
+      "reading": "つづける",
+      "meaning": "途中でやめずに行うこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-050",
+      "type": "standard",
+      "prompt": "歴史的な出来事の背景を【さぐる】。",
+      "answer": "探る",
+      "reading": "さぐる",
+      "meaning": "分からないことを調べて明らかにしようとすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-051",
+      "type": "homophone",
+      "prompt": "文化祭の費用を【せいさん】する。",
+      "answer": "精算",
+      "reading": "せいさん",
+      "meaning": "金額を計算し、過不足を処理すること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "精算・清算・生産"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-052",
+      "type": "homophone",
+      "prompt": "会社を解散して事業を【せいさん】する。",
+      "answer": "清算",
+      "reading": "せいさん",
+      "meaning": "関係や事業を整理して終わらせること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "精算・清算・生産"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-053",
+      "type": "homophone",
+      "prompt": "工場で自動車を【せいさん】する。",
+      "answer": "生産",
+      "reading": "せいさん",
+      "meaning": "物を作り出すこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "精算・清算・生産"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-054",
+      "type": "homophone",
+      "prompt": "長年続いた争いを【しゅうけつ】させる。",
+      "answer": "終結",
+      "reading": "しゅうけつ",
+      "meaning": "物事が終わりになること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "終結・集結"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-055",
+      "type": "homophone",
+      "prompt": "駅前に多くの人が【しゅうけつ】する。",
+      "answer": "集結",
+      "reading": "しゅうけつ",
+      "meaning": "多くの人や物が一か所に集まること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "終結・集結"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-056",
+      "type": "homophone",
+      "prompt": "新しい制度を正式に【こうふ】する。",
+      "answer": "公布",
+      "reading": "こうふ",
+      "meaning": "成立した法令などを広く知らせること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "公布・交付"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-057",
+      "type": "homophone",
+      "prompt": "窓口で証明書を【こうふ】する。",
+      "answer": "交付",
+      "reading": "こうふ",
+      "meaning": "書類や金品などを相手に渡すこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "公布・交付"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-058",
+      "type": "homophone",
+      "prompt": "生活習慣を【かいぜん】する。",
+      "answer": "改善",
+      "reading": "かいぜん",
+      "meaning": "悪いところをよりよくすること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "改善・改選"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-059",
+      "type": "homophone",
+      "prompt": "任期満了に伴って役員を【かいせん】する。",
+      "answer": "改選",
+      "reading": "かいせん",
+      "meaning": "任期後などに改めて選び直すこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "改善・改選"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-060",
+      "type": "homophone",
+      "prompt": "伝統工芸の技術を【けいしょう】する。",
+      "answer": "継承",
+      "reading": "けいしょう",
+      "meaning": "受け継ぐこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "継承・敬称"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-061",
+      "type": "homophone",
+      "prompt": "相手を【けいしょう】を付けて呼ぶ。",
+      "answer": "敬称",
+      "reading": "けいしょう",
+      "meaning": "相手への敬意を表す呼び名。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "継承・敬称"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-062",
+      "type": "homophone",
+      "prompt": "二つの作品を【たいしょう】して特徴を調べる。",
+      "answer": "対照",
+      "reading": "たいしょう",
+      "meaning": "二つのものを照らし合わせ、違いを比べること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "対象・対照・対称"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-063",
+      "type": "homophone",
+      "prompt": "新製品の効果を実験で【しょうめい】する。",
+      "answer": "証明",
+      "reading": "しょうめい",
+      "meaning": "事実や正しさを明らかにすること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "証明・照明"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-064",
+      "type": "homophone",
+      "prompt": "舞台の【しょうめい】を明るくする。",
+      "answer": "照明",
+      "reading": "しょうめい",
+      "meaning": "光を当てて明るくする設備や作用。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "証明・照明"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-065",
+      "type": "homophone",
+      "prompt": "事故の原因を【ついきゅう】する。",
+      "answer": "追究",
+      "reading": "ついきゅう",
+      "meaning": "深く調べて明らかにしようとすること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "追究・追求・追及"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-066",
+      "type": "homophone",
+      "prompt": "理想の生き方を【ついきゅう】する。",
+      "answer": "追求",
+      "reading": "ついきゅう",
+      "meaning": "目的のものを得ようとして求め続けること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "追究・追求・追及"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-067",
+      "type": "homophone",
+      "prompt": "責任者の過失を厳しく【ついきゅう】する。",
+      "answer": "追及",
+      "reading": "ついきゅう",
+      "meaning": "責任や原因を問いただすこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "追究・追求・追及"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-068",
+      "type": "homophone",
+      "prompt": "新しい制度の導入を【けんとう】する。",
+      "answer": "検討",
+      "reading": "けんとう",
+      "meaning": "よく調べて考えること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "検討・健闘"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-069",
+      "type": "homophone",
+      "prompt": "選手たちの【けんとう】をたたえる。",
+      "answer": "健闘",
+      "reading": "けんとう",
+      "meaning": "力いっぱいよく戦うこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "検討・健闘"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-070",
+      "type": "homophone",
+      "prompt": "会社の方針を大きく【へんこう】する。",
+      "answer": "変更",
+      "reading": "へんこう",
+      "meaning": "それまでの内容を変えること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "変更・偏向"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-071",
+      "type": "homophone",
+      "prompt": "報道内容が一方に【へんこう】している。",
+      "answer": "偏向",
+      "reading": "へんこう",
+      "meaning": "考え方や扱いが一方に偏ること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "変更・偏向"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-072",
+      "type": "homophone",
+      "prompt": "新しい建物の安全性を【ほしょう】する。",
+      "answer": "保証",
+      "reading": "ほしょう",
+      "meaning": "間違いないと責任を持って認めること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "保証・保障・補償"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-073",
+      "type": "homophone",
+      "prompt": "国民の生活を【ほしょう】する。",
+      "answer": "保障",
+      "reading": "ほしょう",
+      "meaning": "権利や生活などを守ること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "保証・保障・補償"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-074",
+      "type": "homophone",
+      "prompt": "事故による損害を【ほしょう】する。",
+      "answer": "補償",
+      "reading": "ほしょう",
+      "meaning": "損失や被害を金銭などで埋め合わせること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "保証・保障・補償"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-075",
+      "type": "homophone",
+      "prompt": "新しい意見を会議で【さいよう】する。",
+      "answer": "採用",
+      "reading": "さいよう",
+      "meaning": "選んで取り入れること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "採用・作用"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-076",
+      "type": "homophone",
+      "prompt": "薬が体に【さよう】する。",
+      "answer": "作用",
+      "reading": "さよう",
+      "meaning": "他のものに働きかけて変化を起こすこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "採用・作用"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-077",
+      "type": "homophone",
+      "prompt": "左右【たいしょう】の図形を描く。",
+      "answer": "対称",
+      "reading": "たいしょう",
+      "meaning": "互いに対応し、つり合った形になっていること。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "対象・対照・対称"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-078",
+      "type": "homophone",
+      "prompt": "調査の【たいしょう】を中学生に限定する。",
+      "answer": "対象",
+      "reading": "たいしょう",
+      "meaning": "働きかけや調査などが向けられる相手や物事。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "対象・対照・対称"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-079",
+      "type": "homophone",
+      "prompt": "計画の実行には多くの人の【きょうりょく】が必要だ。",
+      "answer": "協力",
+      "reading": "きょうりょく",
+      "meaning": "力を合わせて物事を行うこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "協力・強力"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-080",
+      "type": "homophone",
+      "prompt": "この薬には【きょうりょく】な効果がある。",
+      "answer": "強力",
+      "reading": "きょうりょく",
+      "meaning": "力や作用が非常に強いこと。",
+      "answerLength": 2,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "同音異義語",
+        "協力・強力"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-081",
+      "type": "idiom",
+      "prompt": "何度失敗しても、そのたびに立ち上がること。【ななころびやおき】",
+      "answer": "七転八起",
+      "reading": "ななころびやおき",
+      "meaning": "何度失敗しても、くじけずに立ち上がること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-082",
+      "type": "idiom",
+      "prompt": "古いことを学び、そこから新しい知識を得ること。【おんこちしん】",
+      "answer": "温故知新",
+      "reading": "おんこちしん",
+      "meaning": "昔の事柄を学び、新しい知識や道理を得ること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-083",
+      "type": "idiom",
+      "prompt": "一つのことに心を集中すること。【いちいせんしん】",
+      "answer": "一意専心",
+      "reading": "いちいせんしん",
+      "meaning": "他に心を向けず、一つのことに集中すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-084",
+      "type": "idiom",
+      "prompt": "周囲を気にせず、思うままに振る舞うこと。【じゆうほんぽう】",
+      "answer": "自由奔放",
+      "reading": "じゆうほんぽう",
+      "meaning": "決まりなどに縛られず、思うままに行動すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-085",
+      "type": "idiom",
+      "prompt": "自分の利益を後回しにして、他人のために尽くすこと。【じこぎせい】",
+      "answer": "自己犠牲",
+      "reading": "じこぎせい",
+      "meaning": "自分を犠牲にして他人や目的のために尽くすこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-086",
+      "type": "idiom",
+      "prompt": "考えや主張が最初から最後まで変わらないこと。【しゅしいっかん】",
+      "answer": "終始一貫",
+      "reading": "しゅしいっかん",
+      "meaning": "始めから終わりまで態度や方針が変わらないこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-087",
+      "type": "idiom",
+      "prompt": "力を合わせて物事に取り組むこと。【きょうりょくいっち】",
+      "answer": "協力一致",
+      "reading": "きょうりょくいっち",
+      "meaning": "人々が心を合わせ、協力して行動すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-088",
+      "type": "idiom",
+      "prompt": "状況に応じて適切に対応すること。【りんきおうへん】",
+      "answer": "臨機応変",
+      "reading": "りんきおうへん",
+      "meaning": "その場の状況に応じて適切に対応すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-089",
+      "type": "idiom",
+      "prompt": "それぞれの人が勝手な考えや行動を取ること。【さんしゃさんよう】",
+      "answer": "三者三様",
+      "reading": "さんしゃさんよう",
+      "meaning": "人によって考え方ややり方がそれぞれ異なること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-090",
+      "type": "idiom",
+      "prompt": "多くの人が同じ口調で同じことを言うこと。【いくどうおん】",
+      "answer": "異口同音",
+      "reading": "いくどうおん",
+      "meaning": "多くの人が口をそろえて同じことを言うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-091",
+      "type": "idiom",
+      "prompt": "物事の始めから終わりまでの経過。【いちぶしじゅう】",
+      "answer": "一部始終",
+      "reading": "いちぶしじゅう",
+      "meaning": "物事の初めから終わりまでのすべて。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-092",
+      "type": "idiom",
+      "prompt": "非常に苦しい状況から抜け出すこと。【きしかいせい】",
+      "answer": "起死回生",
+      "reading": "きしかいせい",
+      "meaning": "絶望的な状態を立て直すこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-093",
+      "type": "idiom",
+      "prompt": "気持ちや考えがぴったり合うこと。【いしんでんしん】",
+      "answer": "以心伝心",
+      "reading": "いしんでんしん",
+      "meaning": "言葉にしなくても心が通じ合うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-094",
+      "type": "idiom",
+      "prompt": "周囲が敵ばかりで、助けがないこと。【しめんそか】",
+      "answer": "四面楚歌",
+      "reading": "しめんそか",
+      "meaning": "周囲が敵や反対者ばかりで、孤立していること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-095",
+      "type": "idiom",
+      "prompt": "他人の意見を考えず、自分の考えだけで決めること。【どくだんせんこう】",
+      "answer": "独断専行",
+      "reading": "どくだんせんこう",
+      "meaning": "他人の意見を聞かず、自分だけの判断で行動すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-096",
+      "type": "idiom",
+      "prompt": "物事を大げさに言い立てること。【たいげんそうご】",
+      "answer": "大言壮語",
+      "reading": "たいげんそうご",
+      "meaning": "実力以上に大きなことを言うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-097",
+      "type": "idiom",
+      "prompt": "多くの人が自由に意見を述べ、活発に論じ合うこと。【ひゃっかそうめい】",
+      "answer": "百家争鳴",
+      "reading": "ひゃっかそうめい",
+      "meaning": "多くの人が自由に意見を述べて論じ合うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-098",
+      "type": "idiom",
+      "prompt": "物事を簡単には決めず、何度もよく考えること。【じゅくりょだんこう】",
+      "answer": "熟慮断行",
+      "reading": "じゅくりょだんこう",
+      "meaning": "十分に考えた上で思い切って実行すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-099",
+      "type": "idiom",
+      "prompt": "小さな違いを気にせず、大きな目標のために協力すること。【たいどうしょうい】",
+      "answer": "大同小異",
+      "reading": "たいどうしょうい",
+      "meaning": "大体は同じで、細かな点だけが異なること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-100",
+      "type": "idiom",
+      "prompt": "よく学び、よく考えて判断すること。【はくがくしんもん】",
+      "answer": "博学審問",
+      "reading": "はくがくしんもん",
+      "meaning": "広く学び、詳しく問い、慎重に考えること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-101",
+      "type": "standard",
+      "prompt": "将来の目標を具体的に【えがく】。",
+      "answer": "描く",
+      "reading": "えがく",
+      "meaning": "心に思い浮かべたり、絵や文章で表したりすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-102",
+      "type": "standard",
+      "prompt": "課題の解決に向けて努力を【かさねる】。",
+      "answer": "重ねる",
+      "reading": "かさねる",
+      "meaning": "同じことを何度も続けること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-103",
+      "type": "standard",
+      "prompt": "会場の安全を事前に【たしかめる】。",
+      "answer": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "間違いがないか確認すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-104",
+      "type": "standard",
+      "prompt": "必要な資料を順番に【ならべる】。",
+      "answer": "並べる",
+      "reading": "ならべる",
+      "meaning": "物を列になるように置くこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-105",
+      "type": "standard",
+      "prompt": "相手の意見に静かに【みみをかたむける】。",
+      "answer": "耳を傾ける",
+      "reading": "みみをかたむける",
+      "meaning": "注意して話を聞くこと。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-106",
+      "type": "standard",
+      "prompt": "地域の課題を自分たちで【かいけつ】する。",
+      "answer": "解決",
+      "reading": "かいけつ",
+      "meaning": "問題をうまく処理して終わらせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-107",
+      "type": "standard",
+      "prompt": "学習計画を自分で【たてる】。",
+      "answer": "立てる",
+      "reading": "たてる",
+      "meaning": "計画や目標などを決めること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-108",
+      "type": "standard",
+      "prompt": "重要な部分に線を【ひく】。",
+      "answer": "引く",
+      "reading": "ひく",
+      "meaning": "線などを描くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-109",
+      "type": "standard",
+      "prompt": "必要な情報を一つに【しゅうやく】する。",
+      "answer": "集約",
+      "reading": "しゅうやく",
+      "meaning": "ばらばらのものを一つにまとめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "難問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-110",
+      "type": "standard",
+      "prompt": "新しい考えを生活に【とりいれる】。",
+      "answer": "取り入れる",
+      "reading": "とりいれる",
+      "meaning": "外から新しいものを受け入れること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-111",
+      "type": "standard",
+      "prompt": "自然の変化を長期間【かんさつ】する。",
+      "answer": "観察",
+      "reading": "かんさつ",
+      "meaning": "物事の様子を注意深く見ること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-112",
+      "type": "standard",
+      "prompt": "実験結果を表に【せいり】する。",
+      "answer": "整理",
+      "reading": "せいり",
+      "meaning": "分かりやすいように整えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-113",
+      "type": "standard",
+      "prompt": "資料から必要な情報を【ぬきだす】。",
+      "answer": "抜き出す",
+      "reading": "ぬきだす",
+      "meaning": "必要な部分だけを取り出すこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-114",
+      "type": "standard",
+      "prompt": "文章の要点を簡潔に【ようやく】する。",
+      "answer": "要約",
+      "reading": "ようやく",
+      "meaning": "文章の大切な部分を短くまとめること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-115",
+      "type": "standard",
+      "prompt": "発表の内容を全員で【きょうゆう】する。",
+      "answer": "共有",
+      "reading": "きょうゆう",
+      "meaning": "同じ情報や考えをともに持つこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-116",
+      "type": "standard",
+      "prompt": "結果に至った理由を【せつめい】する。",
+      "answer": "説明",
+      "reading": "せつめい",
+      "meaning": "相手に分かるように詳しく述べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-117",
+      "type": "standard",
+      "prompt": "資料の出典を明確に【しめす】。",
+      "answer": "示す",
+      "reading": "しめす",
+      "meaning": "相手に分かるように表すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-118",
+      "type": "standard",
+      "prompt": "話し合いの内容を記録に【のこす】。",
+      "answer": "残す",
+      "reading": "のこす",
+      "meaning": "後まで消えないように保つこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-119",
+      "type": "standard",
+      "prompt": "異なる考えを公平に【くらべる】。",
+      "answer": "比べる",
+      "reading": "くらべる",
+      "meaning": "二つ以上のものの違いや共通点を調べること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-120",
+      "type": "standard",
+      "prompt": "必要に応じて計画を【みなおす】。",
+      "answer": "見直す",
+      "reading": "みなおす",
+      "meaning": "もう一度調べて改めること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-121",
+      "type": "standard",
+      "prompt": "自分の役割を最後まで【はたす】。",
+      "answer": "果たす",
+      "reading": "はたす",
+      "meaning": "任務や約束を成し遂げること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-122",
+      "type": "standard",
+      "prompt": "大会に向けて技術を【みがく】。",
+      "answer": "磨く",
+      "reading": "みがく",
+      "meaning": "努力して能力や技術を高めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-123",
+      "type": "standard",
+      "prompt": "相手の気持ちを深く【おもいやる】。",
+      "answer": "思いやる",
+      "reading": "おもいやる",
+      "meaning": "相手の立場や気持ちを考えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-124",
+      "type": "standard",
+      "prompt": "困難な課題にも【いどむ】。",
+      "answer": "挑む",
+      "reading": "いどむ",
+      "meaning": "難しいことに立ち向かうこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-125",
+      "type": "standard",
+      "prompt": "小さな変化を見逃さずに【きづく】。",
+      "answer": "気付く",
+      "reading": "きづく",
+      "meaning": "それまで知らなかったことを知ること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-126",
+      "type": "standard",
+      "prompt": "失敗を次の学習に【やくだてる】。",
+      "answer": "役立てる",
+      "reading": "やくだてる",
+      "meaning": "ある目的のために有効に使うこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-127",
+      "type": "standard",
+      "prompt": "人々の生活を支える仕事に【たずさわる】。",
+      "answer": "携わる",
+      "reading": "たずさわる",
+      "meaning": "ある仕事に関係して取り組むこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-128",
+      "type": "standard",
+      "prompt": "緊張していても落ち着いて【ふるまう】。",
+      "answer": "振る舞う",
+      "reading": "ふるまう",
+      "meaning": "ある態度や行動を取ること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-129",
+      "type": "standard",
+      "prompt": "新しい環境に少しずつ【なれる】。",
+      "answer": "慣れる",
+      "reading": "なれる",
+      "meaning": "経験を重ねて違和感がなくなること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-130",
+      "type": "standard",
+      "prompt": "互いの長所を認めて【はげます】。",
+      "answer": "励ます",
+      "reading": "はげます",
+      "meaning": "元気や勇気が出るように声をかけること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-131",
+      "type": "standard",
+      "prompt": "文化祭の準備を円滑に【すすめる】。",
+      "answer": "進める",
+      "reading": "すすめる",
+      "meaning": "物事が先へ進むようにすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-132",
+      "type": "standard",
+      "prompt": "問題点を具体的に【あげる】。",
+      "answer": "挙げる",
+      "reading": "あげる",
+      "meaning": "例や項目として取り出して示すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-133",
+      "type": "standard",
+      "prompt": "必要な費用を正確に【みつもる】。",
+      "answer": "見積もる",
+      "reading": "みつもる",
+      "meaning": "数量や費用などを前もって計算すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-134",
+      "type": "standard",
+      "prompt": "予想外の事態に冷静に【そなえる】。",
+      "answer": "備える",
+      "reading": "そなえる",
+      "meaning": "将来の出来事に対応できるよう準備すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-135",
+      "type": "standard",
+      "prompt": "調査の目的を明確に【さだめる】。",
+      "answer": "定める",
+      "reading": "さだめる",
+      "meaning": "決まりや方針などを決めること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-136",
+      "type": "standard",
+      "prompt": "互いに意見を出し合い、考えを【ふかめる】。",
+      "answer": "深める",
+      "reading": "ふかめる",
+      "meaning": "内容や程度をさらに深くすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-137",
+      "type": "standard",
+      "prompt": "資料の内容を自分の言葉で【いいかえる】。",
+      "answer": "言い換える",
+      "reading": "いいかえる",
+      "meaning": "同じ意味を別の表現で表すこと。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-138",
+      "type": "standard",
+      "prompt": "長い文章から中心となる部分を【みぬく】。",
+      "answer": "見抜く",
+      "reading": "みぬく",
+      "meaning": "表面に隠れた本質を見つけること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-139",
+      "type": "standard",
+      "prompt": "複数の資料を関連付けて【かんがえる】。",
+      "answer": "考える",
+      "reading": "かんがえる",
+      "meaning": "筋道を立てて判断すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-140",
+      "type": "standard",
+      "prompt": "将来の課題をあらかじめ【よそく】する。",
+      "answer": "予測",
+      "reading": "よそく",
+      "meaning": "将来どうなるかを前もって考えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-141",
+      "type": "standard",
+      "prompt": "自分の考えを根拠によって【ささえる】。",
+      "answer": "支える",
+      "reading": "ささえる",
+      "meaning": "倒れないように保つこと。また、助けること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-142",
+      "type": "standard",
+      "prompt": "資料の信頼性を慎重に【たしかめる】。",
+      "answer": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "正しいかどうか確認すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-143",
+      "type": "standard",
+      "prompt": "議論の中心となる点を【しぼる】。",
+      "answer": "絞る",
+      "reading": "しぼる",
+      "meaning": "範囲や数量を小さく限定すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-144",
+      "type": "standard",
+      "prompt": "出来事の順序を正しく【ととのえる】。",
+      "answer": "整える",
+      "reading": "ととのえる",
+      "meaning": "乱れのない状態にすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-145",
+      "type": "standard",
+      "prompt": "新しい発見を報告書に【きさい】する。",
+      "answer": "記載",
+      "reading": "きさい",
+      "meaning": "書類などに書き記すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-146",
+      "type": "standard",
+      "prompt": "話し合いの結果を全員に【つたえる】。",
+      "answer": "伝える",
+      "reading": "つたえる",
+      "meaning": "言葉などで相手に知らせること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-147",
+      "type": "standard",
+      "prompt": "社会の出来事に関心を【もつ】。",
+      "answer": "持つ",
+      "reading": "もつ",
+      "meaning": "ある気持ちや考えを心に抱くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-148",
+      "type": "standard",
+      "prompt": "資料から事実と意見を【くべつ】する。",
+      "answer": "区別",
+      "reading": "くべつ",
+      "meaning": "違いに基づいて分けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-149",
+      "type": "standard",
+      "prompt": "複雑な内容を図で【あらわす】。",
+      "answer": "表す",
+      "reading": "あらわす",
+      "meaning": "考えや状態を外に示すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-150",
+      "type": "standard",
+      "prompt": "発表を聞いて疑問点を【たずねる】。",
+      "answer": "尋ねる",
+      "reading": "たずねる",
+      "meaning": "分からないことを質問すること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-151",
+      "type": "standard",
+      "prompt": "学習した内容を日常生活に【おうよう】する。",
+      "answer": "応用",
+      "reading": "おうよう",
+      "meaning": "知識や方法を別の場面に当てはめて使うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-152",
+      "type": "standard",
+      "prompt": "小さな努力を長く【つみかさねる】。",
+      "answer": "積み重ねる",
+      "reading": "つみかさねる",
+      "meaning": "同じことを少しずつ続けること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-153",
+      "type": "standard",
+      "prompt": "異なる資料から共通点を【みいだす】。",
+      "answer": "見いだす",
+      "reading": "みいだす",
+      "meaning": "新しく発見すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-154",
+      "type": "standard",
+      "prompt": "意見の違いを話し合いで【うめる】。",
+      "answer": "埋める",
+      "reading": "うめる",
+      "meaning": "差や不足をなくすこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-155",
+      "type": "standard",
+      "prompt": "災害時の連絡方法を【かくにん】する。",
+      "answer": "確認",
+      "reading": "かくにん",
+      "meaning": "確かであるか調べること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-156",
+      "type": "standard",
+      "prompt": "新しい学習方法を実際に【ためす】。",
+      "answer": "試す",
+      "reading": "ためす",
+      "meaning": "効果や能力を確かめるために行うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-157",
+      "type": "standard",
+      "prompt": "不安な気持ちを言葉で【うちあける】。",
+      "answer": "打ち明ける",
+      "reading": "うちあける",
+      "meaning": "秘密や悩みなどを隠さず話すこと。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-158",
+      "type": "standard",
+      "prompt": "相手の提案を前向きに【うけいれる】。",
+      "answer": "受け入れる",
+      "reading": "うけいれる",
+      "meaning": "認めて自分の中に取り入れること。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-159",
+      "type": "standard",
+      "prompt": "古い建物を大切に【ほぞん】する。",
+      "answer": "保存",
+      "reading": "ほぞん",
+      "meaning": "元の状態を保って残すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-160",
+      "type": "standard",
+      "prompt": "異文化への理解をさらに【ひろげる】。",
+      "answer": "広げる",
+      "reading": "ひろげる",
+      "meaning": "範囲や規模を大きくすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-161",
+      "type": "standard",
+      "prompt": "自分の弱点を冷静に【みつめる】。",
+      "answer": "見つめる",
+      "reading": "みつめる",
+      "meaning": "注意を集中して見ること。また、深く考えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-162",
+      "type": "standard",
+      "prompt": "話し合いの内容を簡潔に【ほうこく】する。",
+      "answer": "報告",
+      "reading": "ほうこく",
+      "meaning": "結果や状況を知らせること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-163",
+      "type": "standard",
+      "prompt": "相手の説明を誤解なく【うけとる】。",
+      "answer": "受け取る",
+      "reading": "うけとる",
+      "meaning": "渡されたものや意味を自分のものとして得ること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-164",
+      "type": "standard",
+      "prompt": "地域の人々と交流を【ふかめる】。",
+      "answer": "深める",
+      "reading": "ふかめる",
+      "meaning": "関係や理解をより深くすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-165",
+      "type": "standard",
+      "prompt": "課題の原因を一つずつ【さぐる】。",
+      "answer": "探る",
+      "reading": "さぐる",
+      "meaning": "分からないことを調べて明らかにしようとすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-166",
+      "type": "standard",
+      "prompt": "新しい制度の利点と欠点を【あげる】。",
+      "answer": "挙げる",
+      "reading": "あげる",
+      "meaning": "例や項目として取り出して示すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-167",
+      "type": "standard",
+      "prompt": "大切な約束を最後まで【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "決まりや約束に従うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-168",
+      "type": "standard",
+      "prompt": "経験を通して判断力を【やしなう】。",
+      "answer": "養う",
+      "reading": "やしなう",
+      "meaning": "力や性質を少しずつ育てること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-169",
+      "type": "standard",
+      "prompt": "科学技術の発展を社会に【いかす】。",
+      "answer": "生かす",
+      "reading": "いかす",
+      "meaning": "価値や能力を役立てること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-170",
+      "type": "standard",
+      "prompt": "自分の考えを簡潔に【のべる】。",
+      "answer": "述べる",
+      "reading": "のべる",
+      "meaning": "考えや意見を言葉で表すこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-171",
+      "type": "standard",
+      "prompt": "相手の発言の意図を正しく【くみとる】。",
+      "answer": "くみ取る",
+      "reading": "くみとる",
+      "meaning": "表面に出ていない気持ちや意味を理解すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-172",
+      "type": "standard",
+      "prompt": "困難な状況を力を合わせて【のりこえる】。",
+      "answer": "乗り越える",
+      "reading": "のりこえる",
+      "meaning": "困難を克服して先へ進むこと。",
+      "answerLength": 5,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-173",
+      "type": "standard",
+      "prompt": "自分の行動を客観的に【ふりかえる】。",
+      "answer": "振り返る",
+      "reading": "ふりかえる",
+      "meaning": "過去のことを思い返して考えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-174",
+      "type": "standard",
+      "prompt": "小さな変化にも柔軟に【たいおう】する。",
+      "answer": "対応",
+      "reading": "たいおう",
+      "meaning": "状況に合わせて行動すること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-175",
+      "type": "standard",
+      "prompt": "説明の不足を資料で【おぎなう】。",
+      "answer": "補う",
+      "reading": "おぎなう",
+      "meaning": "足りない部分を付け加えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-176",
+      "type": "standard",
+      "prompt": "考え方の違いを対話によって【ちょうせい】する。",
+      "answer": "調整",
+      "reading": "ちょうせい",
+      "meaning": "つり合いが取れるように整えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-177",
+      "type": "standard",
+      "prompt": "地域の伝統を次の世代へ【うけつぐ】。",
+      "answer": "受け継ぐ",
+      "reading": "うけつぐ",
+      "meaning": "前の人から受け取り、後へ伝えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-178",
+      "type": "standard",
+      "prompt": "集めた情報を目的別に【ぶんるい】する。",
+      "answer": "分類",
+      "reading": "ぶんるい",
+      "meaning": "共通する特徴によって分けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-179",
+      "type": "standard",
+      "prompt": "問題の背景を歴史的に【とらえる】。",
+      "answer": "捉える",
+      "reading": "とらえる",
+      "meaning": "物事の本質や意味をつかむこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-180",
+      "type": "standard",
+      "prompt": "発言の内容を正確に【ききとる】。",
+      "answer": "聞き取る",
+      "reading": "ききとる",
+      "meaning": "耳で聞いて内容を理解すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-181",
+      "type": "standard",
+      "prompt": "将来の自分の姿を具体的に【そうぞう】する。",
+      "answer": "想像",
+      "reading": "そうぞう",
+      "meaning": "実際にはないことを心に思い描くこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-182",
+      "type": "standard",
+      "prompt": "地域の魅力を写真で【はっしん】する。",
+      "answer": "発信",
+      "reading": "はっしん",
+      "meaning": "情報や考えを外へ向けて伝えること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-183",
+      "type": "standard",
+      "prompt": "課題解決のための仮説を【たてる】。",
+      "answer": "立てる",
+      "reading": "たてる",
+      "meaning": "考えや計画などを作ること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-184",
+      "type": "standard",
+      "prompt": "異なる立場の人々を公平に【あつかう】。",
+      "answer": "扱う",
+      "reading": "あつかう",
+      "meaning": "人や物をある方法で取り扱うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-185",
+      "type": "standard",
+      "prompt": "提出期限を必ず【まもる】。",
+      "answer": "守る",
+      "reading": "まもる",
+      "meaning": "決まりや約束に従うこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-186",
+      "type": "standard",
+      "prompt": "自分の考えを簡潔な言葉で【あらわす】。",
+      "answer": "表す",
+      "reading": "あらわす",
+      "meaning": "考えや状態を外に示すこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-187",
+      "type": "standard",
+      "prompt": "必要な情報を適切に【せんたく】する。",
+      "answer": "選択",
+      "reading": "せんたく",
+      "meaning": "複数の中から一つを選ぶこと。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-188",
+      "type": "standard",
+      "prompt": "実験の結果を正確に【よみとる】。",
+      "answer": "読み取る",
+      "reading": "よみとる",
+      "meaning": "書かれた内容や意味を理解すること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-189",
+      "type": "standard",
+      "prompt": "話し合いの中で新しい考えを【うみだす】。",
+      "answer": "生み出す",
+      "reading": "うみだす",
+      "meaning": "新しいものを作り出すこと。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-190",
+      "type": "standard",
+      "prompt": "問題の解決策を全員で【さぐる】。",
+      "answer": "探る",
+      "reading": "さぐる",
+      "meaning": "分からないことを調べ、見つけようとすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-191",
+      "type": "standard",
+      "prompt": "事実に基づいて冷静に【はんだん】する。",
+      "answer": "判断",
+      "reading": "はんだん",
+      "meaning": "物事のよしあしなどを考えて決めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-192",
+      "type": "standard",
+      "prompt": "相手の発言を途中で【さえぎる】。",
+      "answer": "遮る",
+      "reading": "さえぎる",
+      "meaning": "進行や動きを途中で止めること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-193",
+      "type": "standard",
+      "prompt": "資料の誤りを丁寧に【ただす】。",
+      "answer": "正す",
+      "reading": "ただす",
+      "meaning": "誤りを直して正しくすること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-194",
+      "type": "standard",
+      "prompt": "長年の努力がついに【みのる】。",
+      "answer": "実る",
+      "reading": "みのる",
+      "meaning": "努力などがよい結果となって表れること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-195",
+      "type": "standard",
+      "prompt": "重要な情報を記憶に【とどめる】。",
+      "answer": "留める",
+      "reading": "とどめる",
+      "meaning": "その場や記憶に残しておくこと。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-196",
+      "type": "standard",
+      "prompt": "地域社会の一員として責任を【になう】。",
+      "answer": "担う",
+      "reading": "になう",
+      "meaning": "役割や責任を引き受けること。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-197",
+      "type": "standard",
+      "prompt": "国際社会の動きを広い視野で【ながめる】。",
+      "answer": "眺める",
+      "reading": "ながめる",
+      "meaning": "全体を見渡すように見ること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-198",
+      "type": "standard",
+      "prompt": "自分の可能性をさらに【ひろげる】。",
+      "answer": "広げる",
+      "reading": "ひろげる",
+      "meaning": "範囲や可能性を大きくすること。",
+      "answerLength": 3,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-199",
+      "type": "standard",
+      "prompt": "対立する意見の間を【とりもつ】。",
+      "answer": "取り持つ",
+      "reading": "とりもつ",
+      "meaning": "人と人との間に立って関係を整えること。",
+      "answerLength": 4,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-200",
+      "type": "standard",
+      "prompt": "相手の努力に心から【けいい】を表す。",
+      "answer": "敬意",
+      "reading": "けいい",
+      "meaning": "相手を尊敬する気持ち。",
+      "answerLength": 2,
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "通常書き取り",
+        "追加100問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-201",
+      "type": "idiom",
+      "prompt": "一度に二つの利益を得ること。【いっきょりょうとく】",
+      "answer": "一挙両得",
+      "reading": "いっきょりょうとく",
+      "meaning": "一つの行動で二つの利益を得ること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-202",
+      "type": "idiom",
+      "prompt": "言葉を使わず、気持ちが通じ合うこと。【いしんでんしん】",
+      "answer": "以心伝心",
+      "reading": "いしんでんしん",
+      "meaning": "言葉にしなくても互いの心が通じること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-203",
+      "type": "idiom",
+      "prompt": "非常に危険で、少しも油断できない状態。【ききいっぱつ】",
+      "answer": "危機一髪",
+      "reading": "ききいっぱつ",
+      "meaning": "危険がすぐ目の前まで迫っていること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-204",
+      "type": "idiom",
+      "prompt": "苦しい状況の中で工夫を重ねること。【あくせんくとう】",
+      "answer": "悪戦苦闘",
+      "reading": "あくせんくとう",
+      "meaning": "困難な状況で苦しみながら努力すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-205",
+      "type": "idiom",
+      "prompt": "大勢の人が口々に同じことを言うこと。【いくどうおん】",
+      "answer": "異口同音",
+      "reading": "いくどうおん",
+      "meaning": "多くの人が口をそろえて同じことを言うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-206",
+      "type": "idiom",
+      "prompt": "はっきりした証拠がなく、疑わしいこと。【はんしんはんぎ】",
+      "answer": "半信半疑",
+      "reading": "はんしんはんぎ",
+      "meaning": "半分信じ、半分疑っていること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-207",
+      "type": "idiom",
+      "prompt": "物事が思い通りに運び、満足している様子。【いきようよう】",
+      "answer": "意気揚々",
+      "reading": "いきようよう",
+      "meaning": "得意で誇らしげな様子。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-208",
+      "type": "idiom",
+      "prompt": "周囲に助けがなく、孤立していること。【しめんそか】",
+      "answer": "四面楚歌",
+      "reading": "しめんそか",
+      "meaning": "周囲が敵や反対者ばかりで孤立していること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-209",
+      "type": "idiom",
+      "prompt": "最初に決めた考えを最後まで変えないこと。【しょしかんてつ】",
+      "answer": "初志貫徹",
+      "reading": "しょしかんてつ",
+      "meaning": "初めに立てた志を最後まで貫くこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-210",
+      "type": "idiom",
+      "prompt": "他人の力を借りず、自分の力で行うこと。【どくりつどっこう】",
+      "answer": "独立独行",
+      "reading": "どくりつどっこう",
+      "meaning": "他人に頼らず、自分の考えで行動すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-211",
+      "type": "idiom",
+      "prompt": "知識や経験が豊富で、物事によく通じていること。【はくがくたさい】",
+      "answer": "博学多才",
+      "reading": "はくがくたさい",
+      "meaning": "広く学問に通じ、多くの才能を持つこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-212",
+      "type": "idiom",
+      "prompt": "何度も考えを改め、慎重に判断すること。【じゅくりょさいこう】",
+      "answer": "熟慮再考",
+      "reading": "じゅくりょさいこう",
+      "meaning": "十分に考え、さらにもう一度考え直すこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-213",
+      "type": "idiom",
+      "prompt": "考えや態度が定まらず、ふらふら変わること。【うゆうきょくせつ】",
+      "answer": "紆余曲折",
+      "reading": "うよきょくせつ",
+      "meaning": "物事が順調に進まず、複雑な経過をたどること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-214",
+      "type": "idiom",
+      "prompt": "細かなことにこだわらず、のびのびしていること。【ごうほうらいらく】",
+      "answer": "豪放磊落",
+      "reading": "ごうほうらいらく",
+      "meaning": "心が大きく、細かなことにこだわらないこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-215",
+      "type": "idiom",
+      "prompt": "表面は従いながら、内心では反対していること。【めんじゅうふくはい】",
+      "answer": "面従腹背",
+      "reading": "めんじゅうふくはい",
+      "meaning": "表面では従い、内心では反対すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-216",
+      "type": "idiom",
+      "prompt": "物事に動じず、落ち着いていること。【たいぜんじじゃく】",
+      "answer": "泰然自若",
+      "reading": "たいぜんじじゃく",
+      "meaning": "どんなことにも驚かず、落ち着いていること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-217",
+      "type": "idiom",
+      "prompt": "準備を十分に整え、機会を待つこと。【よういしゅうとう】",
+      "answer": "用意周到",
+      "reading": "よういしゅうとう",
+      "meaning": "準備が細かいところまで行き届いていること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-218",
+      "type": "idiom",
+      "prompt": "一つのことに心を集中して取り組むこと。【せいしんいっとう】",
+      "answer": "精神一到",
+      "reading": "せいしんいっとう",
+      "meaning": "心を集中すれば、どんなことでも成し遂げられるということ。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-219",
+      "type": "idiom",
+      "prompt": "昔と今では大きく様子が変わったこと。【こんじゃくのかん】",
+      "answer": "今昔之感",
+      "reading": "こんじゃくのかん",
+      "meaning": "昔と今との大きな変化を感じること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-220",
+      "type": "idiom",
+      "prompt": "互いに競い合いながら向上すること。【せっさたくま】",
+      "answer": "切磋琢磨",
+      "reading": "せっさたくま",
+      "meaning": "仲間同士で励まし合い、互いに向上すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-221",
+      "type": "idiom",
+      "prompt": "世の中が大きく変化し続けること。【げきどうへんてん】",
+      "answer": "激動変転",
+      "reading": "げきどうへんてん",
+      "meaning": "社会や物事が激しく移り変わること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-222",
+      "type": "idiom",
+      "prompt": "心を一つにして協力すること。【いっちだんけつ】",
+      "answer": "一致団結",
+      "reading": "いっちだんけつ",
+      "meaning": "多くの人が心を一つにして協力すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-223",
+      "type": "idiom",
+      "prompt": "物事を自分に都合よく解釈すること。【がでんいんすい】",
+      "answer": "我田引水",
+      "reading": "がでんいんすい",
+      "meaning": "自分に都合のよいように物事を考えたり行ったりすること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-224",
+      "type": "idiom",
+      "prompt": "失敗を恐れず、勇気を出して進むこと。【ゆうおうまいしん】",
+      "answer": "勇往邁進",
+      "reading": "ゆうおうまいしん",
+      "meaning": "目標に向かって恐れず、ひたすら前進すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-225",
+      "type": "idiom",
+      "prompt": "一つの影響が周囲へ次々に広がること。【はきゅうこうか】",
+      "answer": "波及効果",
+      "reading": "はきゅうこうか",
+      "meaning": "ある影響が周囲へ次々に広がること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-226",
+      "type": "idiom",
+      "prompt": "過去の失敗を戒めとして心に刻むこと。【ぜんしゃのてつ】",
+      "answer": "前車之轍",
+      "reading": "ぜんしゃのてつ",
+      "meaning": "前の人の失敗を自分への戒めとすること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-227",
+      "type": "idiom",
+      "prompt": "その場その場で適切に判断すること。【りんきおうへん】",
+      "answer": "臨機応変",
+      "reading": "りんきおうへん",
+      "meaning": "状況に応じて適切に対応すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-228",
+      "type": "idiom",
+      "prompt": "自分の行いの結果を自分で受けること。【いんがおうほう】",
+      "answer": "因果応報",
+      "reading": "いんがおうほう",
+      "meaning": "よい行いにも悪い行いにも、それに応じた報いがあること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-229",
+      "type": "idiom",
+      "prompt": "多くの人が集まり、にぎやかな様子。【せんきゃくばんらい】",
+      "answer": "千客万来",
+      "reading": "せんきゃくばんらい",
+      "meaning": "多くの客が次々に訪れること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-230",
+      "type": "idiom",
+      "prompt": "物事を始める決心がなかなかつかないこと。【ゆうじゅうふだん】",
+      "answer": "優柔不断",
+      "reading": "ゆうじゅうふだん",
+      "meaning": "ぐずぐずして、なかなか決断できないこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-231",
+      "type": "idiom",
+      "prompt": "失敗しても何度でも立ち上がること。【ふとうふくつ】",
+      "answer": "不撓不屈",
+      "reading": "ふとうふくつ",
+      "meaning": "困難に負けず、くじけないこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-232",
+      "type": "idiom",
+      "prompt": "正しいと信じる考えを最後まで変えないこと。【しょしかんてつ】",
+      "answer": "初志貫徹",
+      "reading": "しょしかんてつ",
+      "meaning": "初めに立てた志を最後まで貫くこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-233",
+      "type": "idiom",
+      "prompt": "考えや行動に一貫性がなく、前後が合わないこと。【しりめつれつ】",
+      "answer": "支離滅裂",
+      "reading": "しりめつれつ",
+      "meaning": "話や考えがばらばらで筋道が通らないこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-234",
+      "type": "idiom",
+      "prompt": "表面上は同じでも、実質が異なること。【どうしょういむ】",
+      "answer": "同床異夢",
+      "reading": "どうしょういむ",
+      "meaning": "同じ立場にいながら、考えや目的が異なること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-235",
+      "type": "idiom",
+      "prompt": "他人の意見を聞かず、自分だけで決めること。【どくだんせんこう】",
+      "answer": "独断専行",
+      "reading": "どくだんせんこう",
+      "meaning": "他人の意見を聞かず、自分の判断だけで行動すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-236",
+      "type": "idiom",
+      "prompt": "学んだ知識を実際の行動に移すこと。【ちこうごういつ】",
+      "answer": "知行合一",
+      "reading": "ちこうごういつ",
+      "meaning": "知識と実践は一体であるという考え。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-237",
+      "type": "idiom",
+      "prompt": "物事の筋道を立てて、深く考えること。【じゅくりょだんこう】",
+      "answer": "熟慮断行",
+      "reading": "じゅくりょだんこう",
+      "meaning": "十分に考えた上で、思い切って実行すること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-238",
+      "type": "idiom",
+      "prompt": "物事の重要な点を的確に突くこと。【たんとうちょくにゅう】",
+      "answer": "単刀直入",
+      "reading": "たんとうちょくにゅう",
+      "meaning": "遠回しにせず、すぐ本題に入ること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "high",
+      "difficulty": "standard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-239",
+      "type": "idiom",
+      "prompt": "危険や困難を恐れず、思い切って進むこと。【ゆうもうかかん】",
+      "answer": "勇猛果敢",
+      "reading": "ゆうもうかかん",
+      "meaning": "勇気があり、決断力に富んでいること。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    },
+    {
+      "id": "kanji-240",
+      "type": "idiom",
+      "prompt": "多くの人が自由に意見を述べ合うこと。【ひゃっかそうめい】",
+      "answer": "百家争鳴",
+      "reading": "ひゃっかそうめい",
+      "meaning": "多くの人が自由に意見を述べ、活発に論じ合うこと。",
+      "answerLength": 4,
+      "grades": [
+        2,
+        3
+      ],
+      "tags": [
+        "四字熟語",
+        "追加40問"
+      ],
+      "examFrequency": "medium",
+      "difficulty": "hard",
+      "enabled": true
+    }
   ]
 }
