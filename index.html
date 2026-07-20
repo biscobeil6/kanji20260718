@@ -50,6 +50,9 @@ function setupCanvas(cells){
   canvas.dataset.cells=cells;
   drawAll(cells);
 
+  let lastPointerActivity=0;
+  let usingPointerEvents='PointerEvent' in window;
+
   function configurePen(){
     ctx.strokeStyle='#1f2937';
     ctx.fillStyle='#1f2937';
@@ -60,6 +63,10 @@ function setupCanvas(cells){
   function pos(e){
     const r=canvas.getBoundingClientRect();
     return{x:e.clientX-r.left,y:e.clientY-r.top};
+  }
+  function inCanvas(p){
+    const r=canvas.getBoundingClientRect();
+    return p.x>=-12&&p.y>=-12&&p.x<=r.width+12&&p.y<=r.height+12;
   }
   function drawDot(p){
     configurePen();
@@ -77,39 +84,95 @@ function setupCanvas(cells){
     return[e];
   }
   function appendEvent(e){
+    if(!current)return;
     for(const ev of eventBatch(e)){
       const p=pos(ev);
+      if(!inCanvas(p))continue;
       if(!lastPoint){current.push(p);lastPoint=p;drawDot(p);continue}
       if(Math.abs(p.x-lastPoint.x)<0.05&&Math.abs(p.y-lastPoint.y)<0.05)continue;
       current.push(p);drawSegment(lastPoint,p);lastPoint=p;
     }
   }
+  function releaseCapture(){
+    if(activePointerId===null)return;
+    try{if(canvas.hasPointerCapture(activePointerId))canvas.releasePointerCapture(activePointerId)}catch{}
+  }
+  function resetActive(){
+    releaseCapture();
+    activePointerId=null;current=null;lastPoint=null;
+  }
+  function beginStroke(e){
+    // iPad Safari can leave the previous pointer active when pointerup/cancel is missed.
+    // A fresh pen contact always wins and forcibly starts a new stroke.
+    resetActive();
+    activePointerId=e.pointerId;
+    current=[];lastPoint=null;strokes.push(current);
+    // Pointer capture is useful for mouse/touch, but can be unreliable for Apple Pencil on iPad Safari.
+    if(e.pointerType!=='pen'){
+      try{canvas.setPointerCapture(e.pointerId)}catch{}
+    }
+    appendEvent(e);
+  }
   function finish(e){
     if(activePointerId===null||!current)return;
     if(e&&e.pointerId!==undefined&&e.pointerId!==activePointerId)return;
     if(e&&e.type==='pointerup')appendEvent(e);
-    try{if(canvas.hasPointerCapture(activePointerId))canvas.releasePointerCapture(activePointerId)}catch{}
-    activePointerId=null;current=null;lastPoint=null;
+    resetActive();
+  }
+  function penIsDown(e){
+    return e.pointerType==='pen'&&(e.pressure>0||e.buttons!==0);
+  }
+  function handleMove(e){
+    lastPointerActivity=performance.now();
+    // Rescue missed pointerdown events: if the Pencil is clearly touching the screen,
+    // start a stroke from this move event instead of silently ignoring it.
+    if((activePointerId===null||!current)&&penIsDown(e))beginStroke(e);
+    if(e.pointerId!==activePointerId||!current)return;
+    e.preventDefault();appendEvent(e);
   }
 
   canvas.oncontextmenu=e=>e.preventDefault();
   canvas.ondragstart=e=>e.preventDefault();
   canvas.onselectstart=e=>e.preventDefault();
-  canvas.onpointerdown=e=>{
-    if(activePointerId!==null)return;
-    e.preventDefault();
-    activePointerId=e.pointerId;
-    try{canvas.setPointerCapture(e.pointerId)}catch{}
-    current=[];lastPoint=null;strokes.push(current);appendEvent(e);
-  };
-  canvas.onpointermove=e=>{
-    if(e.pointerId!==activePointerId||!current)return;
-    e.preventDefault();appendEvent(e);
-  };
-  canvas.onpointerup=e=>{e.preventDefault();finish(e)};
-  canvas.onpointercancel=e=>finish(e);
-  canvas.onlostpointercapture=e=>finish(e);
+
+  if(usingPointerEvents){
+    canvas.addEventListener('pointerdown',e=>{
+      lastPointerActivity=performance.now();
+      e.preventDefault();
+      beginStroke(e);
+    },{passive:false});
+    canvas.addEventListener('pointermove',handleMove,{passive:false});
+    // pointerrawupdate can arrive more reliably/quickly for pen input. Duplicate coordinates are filtered.
+    canvas.addEventListener('pointerrawupdate',handleMove,{passive:false});
+    canvas.addEventListener('pointerup',e=>{e.preventDefault();finish(e)},{passive:false});
+    canvas.addEventListener('pointercancel',finish,{passive:false});
+    canvas.addEventListener('lostpointercapture',finish,{passive:false});
+    document.addEventListener('pointerup',finish,{passive:true});
+    document.addEventListener('pointercancel',finish,{passive:true});
+  }else{
+    // Fallback for older iOS browsers without Pointer Events.
+    let touchId=null;
+    const touchPos=t=>({clientX:t.clientX,clientY:t.clientY});
+    canvas.addEventListener('touchstart',e=>{
+      e.preventDefault();
+      const t=e.changedTouches[0];if(!t)return;
+      touchId=t.identifier;
+      beginStroke({pointerId:touchId,pointerType:t.touchType==='stylus'?'pen':'touch',clientX:t.clientX,clientY:t.clientY,getCoalescedEvents:null});
+    },{passive:false});
+    canvas.addEventListener('touchmove',e=>{
+      e.preventDefault();
+      const t=[...e.changedTouches].find(x=>x.identifier===touchId);if(!t)return;
+      handleMove({pointerId:touchId,pointerType:t.touchType==='stylus'?'pen':'touch',pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,preventDefault(){}});
+    },{passive:false});
+    const endTouch=e=>{e.preventDefault();resetActive();touchId=null};
+    canvas.addEventListener('touchend',endTouch,{passive:false});
+    canvas.addEventListener('touchcancel',endTouch,{passive:false});
+  }
+
+  window.addEventListener('blur',resetActive,{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)resetActive()},{passive:true});
 }
+
 function drawAll(cells=Number(canvas?.dataset.cells||1)){
   if(!ctx||!canvas)return;
   const r=canvas.getBoundingClientRect();
