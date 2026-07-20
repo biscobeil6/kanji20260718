@@ -135,42 +135,81 @@ function setupCanvas(cells){
   canvas.ondragstart=e=>e.preventDefault();
   canvas.onselectstart=e=>e.preventDefault();
 
+  // iPad/Safari may report Apple Pencil through Pointer Events, Touch Events,
+  // or both. Listen to both paths and deduplicate the same physical contact.
+  let activeSource=null; // 'pointer' | 'touch'
+  let lastStart={time:-Infinity,x:0,y:0,source:null};
+  const near=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y)<12;
+  const eventPoint=e=>({x:e.clientX,y:e.clientY});
+  function duplicateStart(source,e){
+    const now=performance.now(),p=eventPoint(e);
+    const duplicate=source!==lastStart.source&&now-lastStart.time<120&&near(p,lastStart);
+    if(!duplicate)lastStart={time:now,x:p.x,y:p.y,source};
+    return duplicate;
+  }
+
   if(usingPointerEvents){
     canvas.addEventListener('pointerdown',e=>{
       lastPointerActivity=performance.now();
       e.preventDefault();
+      if(duplicateStart('pointer',e))return;
+      activeSource='pointer';
       beginStroke(e);
     },{passive:false});
-    canvas.addEventListener('pointermove',handleMove,{passive:false});
-    // pointerrawupdate can arrive more reliably/quickly for pen input. Duplicate coordinates are filtered.
-    canvas.addEventListener('pointerrawupdate',handleMove,{passive:false});
-    canvas.addEventListener('pointerup',e=>{e.preventDefault();finish(e)},{passive:false});
-    canvas.addEventListener('pointercancel',finish,{passive:false});
-    canvas.addEventListener('lostpointercapture',finish,{passive:false});
-    document.addEventListener('pointerup',finish,{passive:true});
-    document.addEventListener('pointercancel',finish,{passive:true});
-  }else{
-    // Fallback for older iOS browsers without Pointer Events.
-    let touchId=null;
-    const touchPos=t=>({clientX:t.clientX,clientY:t.clientY});
-    canvas.addEventListener('touchstart',e=>{
-      e.preventDefault();
-      const t=e.changedTouches[0];if(!t)return;
-      touchId=t.identifier;
-      beginStroke({pointerId:touchId,pointerType:t.touchType==='stylus'?'pen':'touch',clientX:t.clientX,clientY:t.clientY,getCoalescedEvents:null});
+    canvas.addEventListener('pointermove',e=>{
+      if(activeSource==='touch')return;
+      handleMove(e);
     },{passive:false});
-    canvas.addEventListener('touchmove',e=>{
-      e.preventDefault();
-      const t=[...e.changedTouches].find(x=>x.identifier===touchId);if(!t)return;
-      handleMove({pointerId:touchId,pointerType:t.touchType==='stylus'?'pen':'touch',pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,preventDefault(){}});
+    canvas.addEventListener('pointerrawupdate',e=>{
+      if(activeSource==='touch')return;
+      handleMove(e);
     },{passive:false});
-    const endTouch=e=>{e.preventDefault();resetActive();touchId=null};
-    canvas.addEventListener('touchend',endTouch,{passive:false});
-    canvas.addEventListener('touchcancel',endTouch,{passive:false});
+    canvas.addEventListener('pointerup',e=>{
+      if(activeSource!=='pointer')return;
+      e.preventDefault();finish(e);activeSource=null;
+    },{passive:false});
+    const endPointer=e=>{
+      if(activeSource!=='pointer')return;
+      finish(e);activeSource=null;
+    };
+    canvas.addEventListener('pointercancel',endPointer,{passive:false});
+    canvas.addEventListener('lostpointercapture',endPointer,{passive:false});
+    document.addEventListener('pointerup',endPointer,{passive:true});
+    document.addEventListener('pointercancel',endPointer,{passive:true});
   }
 
-  window.addEventListener('blur',resetActive,{passive:true});
-  document.addEventListener('visibilitychange',()=>{if(document.hidden)resetActive()},{passive:true});
+  // Keep Touch Events enabled even when Pointer Events exist. On iPad this
+  // gives Apple Pencil a second input route when Safari drops a pen pointer.
+  let touchId=null;
+  const stylusType=t=>t.touchType==='stylus'?'pen':'touch';
+  const findTouch=(list,id)=>Array.from(list||[]).find(t=>t.identifier===id);
+  canvas.addEventListener('touchstart',e=>{
+    const t=e.changedTouches&&e.changedTouches[0];if(!t)return;
+    e.preventDefault();
+    const synthetic={pointerId:`touch-${t.identifier}`,pointerType:stylusType(t),pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,getCoalescedEvents:null};
+    if(duplicateStart('touch',synthetic))return;
+    activeSource='touch';touchId=t.identifier;
+    beginStroke(synthetic);
+  },{passive:false});
+  canvas.addEventListener('touchmove',e=>{
+    if(activeSource!=='touch'||touchId===null)return;
+    const t=findTouch(e.changedTouches,touchId)||findTouch(e.touches,touchId);if(!t)return;
+    e.preventDefault();
+    handleMove({pointerId:`touch-${touchId}`,pointerType:stylusType(t),pressure:t.force||1,buttons:1,clientX:t.clientX,clientY:t.clientY,preventDefault(){}});
+  },{passive:false});
+  const endTouch=e=>{
+    if(activeSource!=='touch'||touchId===null)return;
+    const t=findTouch(e.changedTouches,touchId);
+    if(!t&&e.type==='touchend')return;
+    e.preventDefault();
+    finish({pointerId:`touch-${touchId}`});
+    touchId=null;activeSource=null;
+  };
+  canvas.addEventListener('touchend',endTouch,{passive:false});
+  canvas.addEventListener('touchcancel',endTouch,{passive:false});
+
+  window.addEventListener('blur',()=>{resetActive();activeSource=null;touchId=null},{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){resetActive();activeSource=null;touchId=null}},{passive:true});
 }
 
 function drawAll(cells=Number(canvas?.dataset.cells||1)){
